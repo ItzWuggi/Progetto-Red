@@ -1,0 +1,85 @@
+
+:root{
+    color: var: (darkred);
+    color: var: (#C67F7F) ;
+    color: var: ( #ececec);
+}
+
+.testo-1{font-family: "Rajdhani", sans-serif;}
+
+
+
+.testo-2{font-family: "Nova Square", sans-serif;}
+
+ .dimensionilogo{ 
+width: 200px;
+
+} 
+
+.lista1{
+    list-style: none;
+    
+}
+.immaginesopra{
+    margin-top: 220px;
+
+    
+}
+
+
+.herosec{
+    background:linear-gradient(rgb(255, 255, 255),rgba(255,255,255,0.1)), url(./media/switzerland-862870_1920.jpg);
+    background-position: center;
+
+}
+
+
+.contenitorehero{
+padding-left: 0;
+}
+
+.titolo{
+color: darkred;
+font-size:130px ;
+margin-left: 320px;
+}
+
+.testone{
+    margin-left: 320px;
+    position: relative;
+   
+}
+
+
+
+.testone::before {
+position: absolute;
+content: open-quote;
+color: darkred;
+font-size: 50px;
+left: -22px;
+top: -21px;
+
+}
+
+.testone::after {
+    position: absolute;
+    content: close-quote;
+    color: #8b0000;
+    font-size: 50px;
+    top:37px;
+    right: -18px;
+
+}
+
+.colorami{background-color: #ececec;}
+    
+
+.muovimi{
+    margin-left: 165px;
+}
+
+.cerchiami{
+
+    
+}
