@@ -5,34 +5,32 @@
     color: var: ( #ececec);
 }
 
-.testo-1{font-family: "Rajdhani", sans-serif;}
+body{font-family: "Rajdhani", sans-serif;
+    font-weight: 600;   
+}
 
+.testo-1{font-family: "Rajdhani", sans-serif;
+}
 
-
-.testo-2{font-family: "Nova Square", sans-serif;}
+.testo-2{font-family: "Nova Square", sans-serif;
+}
 
 .dimensionilogo{ 
-    width: 200px;
-    
+    width: 200px;  
 } 
 
 .lista1{
     list-style: none;
-    
-}
-.immaginesopra{
-    margin-top: 220px;
-    
-    
 }
 
+.immaginesopra{
+    margin-top: 220px;   
+}
 
 .herosec{
     background:linear-gradient(rgb(255, 255, 255),rgba(255,255,255,0.1)), url(./assets/switzerland-862870_1920.jpg);
-    background-position: center;
-    
+    background-position: center;    
 }
-
 
 .contenitorehero{
     padding-left: 0;
@@ -46,8 +44,7 @@
 
 .testone{
     margin-left: 320px;
-    position: relative;
-    
+    position: relative;    
 }
 
 
@@ -59,7 +56,6 @@
     font-size: 50px;
     left: -22px;
     top: -21px;
-    
 }
 
 .testone::after {
@@ -69,11 +65,10 @@
     font-size: 50px;
     top:37px;
     right: -18px;
-    
 }
 
-.colorami{background-color: #ececec;}
-
+.colorami{background-color: #ececec;
+}
 
 .cerchiami{
     border-bottom: solid 3px #8b0000;
@@ -93,14 +88,99 @@
     left: 45%;
 }
 
-.provami{
-    margin-left: 100px;
+
+
+.bottone{
+    background-color: #8b0000;
+    color: white;
+    width: 250px;
+   height: 50px;
+   border: 0px;
 }
 
-.colonna1{
-    margin-left: -110px;
+.cerchiami2{
+    padding-left: 15px;
+    border-left: solid 3px #8b0000;
+    position: relative;
 }
 
-.colonna2{
+.cerchiami2::after{
+    content: " " ;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border:solid 2px #8b0000;
+    background-color: white;
+    display: flex;
+    position: absolute;    
+    top: 0px;
+    left: -11.5px;
+}
+
+
+.lavorami{
+    color: #8b0000;
+    text-emphasis: bolder;
+    font-size: 22px;
+    position: relative;
+}
+
+.lavorami1{
+    color: #8b0000;
+    text-emphasis: bolder;
+    font-size: 22px;
+
+}
+
+.lavorami::after{
+    content: " " ;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border:solid 2px #8b0000;
+    background-color: white;
+    display: flex;
+    position: absolute;    
+    top: -3.5px;
+    left: -27px;
+}
+
+.secondoalbero{
+    margin-top: 130px;
+}
+
+.bordoimmagine{
+    border: solid 2px #8b0000 ;
+    padding: 7px;
+}
+
+
+.dimensioniTesto{
+font-size: small;
+
+}
+
+
+.dimensioniTesto2{
+    color: #8b0000 !important;
+
+}
+
+
+.dimensioniSocial{
+        width: 20px;
+        height: 20px;
     
 }
+ .margine1{
+    padding-top: 100px;
+    padding-bottom: 100px;
+ }
+
+ .colorami2{
+    background-color: #8b0000;
+ }
+
+ .testo3{
+    color: white;
+ }
